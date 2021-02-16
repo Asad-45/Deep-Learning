@@ -13,7 +13,7 @@ This pixels columns provide all the necessary information related to the image c
 
 ## PROJECT OUTCOME
 
-![Outcome Image]()
+![outcome](https://user-images.githubusercontent.com/62840804/108059715-eaf2c880-707b-11eb-86ff-77b3efb79994.png)
 
 The final Outcome of this project is 'submission.csv' file which has the predict label columns genreated from the pixel columns present in 'test.csv' file .
 
@@ -78,8 +78,7 @@ plt.xlabel('Classes', fontsize = 12)
 plt.ylabel('Classes Frequency', fontsize = 12)
 plt.show()
 ```
-![Frequency plot for 'y' variable]()
-
+![Frequency data](https://user-images.githubusercontent.com/62840804/108059693-e4fce780-707b-11eb-8143-b4d6dd949c0d.png)
 As shown in the figure majority of the digits are above 4000 counts.
 
 - Check for Missing Value
@@ -135,7 +134,7 @@ _Checking the image and its label after split_
 plt.imshow(X_train[1][:,:,0])
 plt.title(y_train[1].argmax());
 ```
-![Image and its label]()
+![Image and it's label](https://user-images.githubusercontent.com/62840804/108059711-ea5a3200-707b-11eb-997e-3d6600375057.png)
 
 The image above is perfectly match its digit from its label.
 
@@ -245,7 +244,7 @@ y_true = np.argmax(y_val,axis = 1)
 df_matrix = confusion_matrix(y_true, y_pred) 
 plot_confusion_matrix(cf_matrix, classes = range(10)) 
 ```
-![Confusion Matrix]()
+![confusion matrix](https://user-images.githubusercontent.com/62840804/108059502-a36c3c80-707b-11eb-9c87-8c21b4289de1.png)
 
 Above confusion matrix gave idea about how true and predict label are matched.
 
