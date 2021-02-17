@@ -15,7 +15,7 @@ This pixels columns provide all the necessary information related to the image c
 
 ![outcome](https://user-images.githubusercontent.com/62840804/108059715-eaf2c880-707b-11eb-86ff-77b3efb79994.png)
 
-The final Outcome of this project is 'submission.csv' file which has the predict label columns genreated from the pixel columns present in 'test.csv' file .
+The final Outcome of this project is 'submission.csv' file which has the predict label columns generated from the pixel columns present in 'test.csv' file .
 
 ## PROJECT FLOW
 
@@ -23,7 +23,7 @@ The final Outcome of this project is 'submission.csv' file which has the predict
 
 
 ## HOW TO RUN THE  CODE
-_This project is runs in Jupyter Envirnonment._
+_This project runs in Jupyter Environment._
 
 1. Ensure that all the necessary packages for this projects have been installed.
 2. Download the .ipynb file and store in the Jupyter working directory.
@@ -286,8 +286,8 @@ submission_df.head()
 
 ## RESULTS
 
-Based on Identifying the digits inside the images our CNN model perform with the Accuracy of 99.38% and loss is estimated to 2.76%. Also, identifying digits for the test.csv is done and save in submission.csv.
+Based on Identifying the digits inside the images our CNN model perform with the Accuracy of 99.38% and loss is estimated to 2.76%. Also, identifying digits for the test.csv is done and saved in the form of submission.csv.
 
 ## FUTURE SCOPE
 
-This project focuses on recognizing the digit that are present inside images only. So, for any future recognizing problem the saved can be used or view as reference for future programming purpose.
+This project focuses on recognizing the digit that are present inside images only. So, for any future recognizing problem this Model can be used or viewed as reference for future programming purpose.
